@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: coptic-dic-backend
+    env: python
+    rootDir: backend
+    buildCommand: "pip install --upgrade pip && pip install ."
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_URL
+        value: sqlite:///./manual_web.db
+      - key: BACKEND_CORS_ORIGINS
+        value: "*"

@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Coptic Translator",
+    "slug": "coptic-translator",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "coptictranslator",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#181d26"
+      }
+    },
+    "extra": {
+      "apiBaseUrl": "http://localhost:8000"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ]
+  }
+}
