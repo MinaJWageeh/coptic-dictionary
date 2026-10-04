@@ -1,0 +1,64 @@
+{
+  "input_type": "sentence",
+  "status": "candidate_generated",
+  "translation": "ⲫⲛⲟⲩϯ ⲟⲩⲁⲅⲁⲡⲏ ⲡⲉ",
+  "confidence": 0.95,
+  "needs_human_review": false,
+  "human_review_reason": null,
+  "word_results": [
+    {
+      "coptic_word": "ⲫⲛⲟⲩϯ",
+      "meaning": "الله",
+      "dialect": "Bohairic",
+      "part_of_speech": "noun",
+      "source_title": "Crum Coptic Dictionary",
+      "confidence": 0.98
+    },
+    {
+      "coptic_word": "ⲁⲅⲁⲡⲏ",
+      "meaning": "محبة",
+      "dialect": "Bohairic",
+      "part_of_speech": "noun",
+      "source_title": "Crum Coptic Dictionary",
+      "confidence": 0.95
+    }
+  ],
+  "literal_breakdown": [
+    {
+      "token": "الله",
+      "coptic": "ⲫⲛⲟⲩϯ",
+      "meaning": "الله / الرب",
+      "status": "exact_match"
+    },
+    {
+      "token": "محبة",
+      "coptic": "ⲟⲩⲁⲅⲁⲡⲏ ⲡⲉ",
+      "meaning": "حب / مودة مع رابط كينونة اسمي",
+      "status": "exact_match"
+    }
+  ],
+  "similar_examples": [
+    {
+      "id": 101,
+      "arabic_text": "إن الله محبة",
+      "coptic_text": "ϫⲉ ⲫⲛⲟⲩϯ ⲟⲩⲁⲅⲁⲡⲏ ⲡⲉ",
+      "similarity": 0.96,
+      "source_title": "العهد الجديد - رسالة يوحنا الأولى 4: 8"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "id": 1,
+      "title": "رابط الكينونة الاسمي المذكر",
+      "rule_code": "COP-NOM-COPULA",
+      "description": "استخدام الرابط (ⲡⲉ) في نهاية الجملة الاسمية بعد الخبر النكرة المؤنث الدال على صفة أو جوهر."
+    }
+  ],
+  "unknown_words": [],
+  "references": [
+    {
+      "title": "Coptic Orthodox Liturgy & New Testament Corpus",
+      "type": "manuscript"
+    }
+  ]
+}

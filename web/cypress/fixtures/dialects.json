@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "code": "Bohairic",
+    "name": "Bohairic",
+    "name_ar": "بحيري",
+    "description": "اللهجة القبطية الشمالية (البحيرية)"
+  },
+  {
+    "id": 2,
+    "code": "Sahidic",
+    "name": "Sahidic",
+    "name_ar": "صعيدي",
+    "description": "اللهجة القبطية الجنوبية (الصعيدية القياسية)"
+  },
+  {
+    "id": 3,
+    "code": "Akhmimic",
+    "name": "Akhmimic",
+    "name_ar": "أخميمي",
+    "description": "اللهجة القبطية الأخميمية"
+  }
+]

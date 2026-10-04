@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "coptic_text": "ⲁⲅⲁⲡⲏ",
+      "normalized_coptic_text": "ⲁⲅⲁⲡⲏ",
+      "transliteration": "agape",
+      "dialect_id": 1,
+      "source_id": 10,
+      "source_title": "Crum Coptic Dictionary",
+      "part_of_speech": "noun",
+      "review_status": "approved",
+      "notes": "يونانية معربة في القبطية تعني محبة روحية",
+      "arabic_meanings": ["محبة", "حب", "إحسان"]
+    },
+    {
+      "id": 2,
+      "coptic_text": "ⲛⲟⲩϯ",
+      "normalized_coptic_text": "ⲛⲟⲩϯ",
+      "transliteration": "nouti",
+      "dialect_id": 1,
+      "source_id": 10,
+      "source_title": "Crum Coptic Dictionary",
+      "part_of_speech": "noun",
+      "review_status": "approved",
+      "notes": "اسم إله أو الله، يسبقه أداة التعريف (ⲫ)",
+      "arabic_meanings": ["إله", "الله", "رب"]
+    }
+  ],
+  "total": 2,
+  "page": 1,
+  "page_size": 20,
+  "total_pages": 1,
+  "has_next": false,
+  "has_prev": false
+}
