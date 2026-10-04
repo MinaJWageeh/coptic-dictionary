@@ -22,7 +22,7 @@ describe("Saved Translations (Local Cache)", () => {
 
     cy.visit("/saved", {
       onBeforeLoad(win) {
-        win.localStorage.setItem("coptic_saved_translations", JSON.stringify([mockSavedItem]));
+        win.localStorage.setItem("coptic-web-saved-translations", JSON.stringify([mockSavedItem]));
       }
     });
 

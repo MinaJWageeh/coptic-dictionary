@@ -59,7 +59,7 @@ export default function LoginPage() {
           </p>
           <div className="field">
             <label>البريد الإلكتروني</label>
-            <input className="input" value={email} onChange={(event) => setEmail(event.target.value)} />
+            <input className="input" type="email" value={email} onChange={(event) => setEmail(event.target.value)} />
           </div>
           <div className="field" style={{ marginTop: 14 }}>
             <label>كلمة المرور</label>

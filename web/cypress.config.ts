@@ -12,7 +12,14 @@ export default defineConfig({
     video: false,
     screenshotOnRunFailure: true,
     setupNodeEvents(on, config) {
-      // Node event listeners can be configured here
+      on("before:browser:launch", (browser, launchOptions) => {
+        if (browser.family === "chromium") {
+          launchOptions.args.push("--disable-gpu");
+          launchOptions.args.push("--no-sandbox");
+          launchOptions.args.push("--disable-dev-shm-usage");
+        }
+        return launchOptions;
+      });
       return config;
     },
   },
