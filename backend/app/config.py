@@ -41,17 +41,14 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 30
 
     # --- CORS ---
-    BACKEND_CORS_ORIGINS: list[str] = [
-        "http://localhost:3000",
-        "http://localhost:3001",
-        "http://127.0.0.1:3001",
-        "http://localhost:8081",
-    ]
+    BACKEND_CORS_ORIGINS: list[str] | str = ["*"]
 
     @field_validator("BACKEND_CORS_ORIGINS", mode="before")
     @classmethod
     def _split_cors(cls, v):  # noqa: ANN001
         if isinstance(v, str):
+            if v.strip() == "*":
+                return ["*"]
             return [origin.strip() for origin in v.split(",") if origin.strip()]
         return v
 
